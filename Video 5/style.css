@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse; /* Ensures borders don't double up */
+    width: 50%; /* Optional: sets table width */
+}
+
+table, th, td {
+    border: 2px solid black; /* Adds border to table, header, and cells */
+}
+
+th, td {
+    padding: 8px; /* Optional: adds space inside cells */
+    text-align: center; /* Optional: centers text in cells */
+}
+
+caption {
+    font-weight: bold; /* Optional: styles the caption */
+    margin-bottom: 10px;
+}

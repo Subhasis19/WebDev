@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img  height="230" src="image.png" alt="Train Image">
     <table>
+        <caption>Student Detail</caption>
+        <!-- Table row <tr> -->
         <tr>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
+            <!-- table heading <th> -->
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Age</th>
+            </tr>
+            
+            <tr>
+            <!-- table data <th>  -->
             <td>Subahsis</td>
+            <td>Devloper</td>
             <td>22</td>
         </tr>
-        <tr>
+
+            <tr>
+            <!-- table data <th>  -->
             <td>Harry</td>
+            <td>Teacher</td>
+            <td rowspan="2">26</td>
+        </tr>
+        <tr>
+            <td colspan="2">Josh</td>
             <td>23</td>
         </tr>
     </table>
